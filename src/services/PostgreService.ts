@@ -1,14 +1,6 @@
 //tslint:disable
-import {Client, Pool} from "pg";
-import {Subject} from "rxjs";
+import {Client} from "pg";
 import {ClientMaker} from "./ClientMaker";
-const client = new Client({
-    database: "",
-    host: "web0.eecs.uottawa.ca",
-    password: "",
-    port: 15432,
-    user: "",
-});
 export class PostgreService {
     private client: Client;
     private static instance: PostgreService;
