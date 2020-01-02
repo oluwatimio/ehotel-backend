@@ -1,0 +1,5 @@
+node_modules
+src/services/ClientMaker.ts
+src/services/FireAuth.ts
+dist
+.idea
