@@ -10,3 +10,15 @@ The routes for ehotel backend can be seen in routes folder. The services such as
 can be seen in the services folder. The combination of routes and these services make the ehotel backend.
 
 The frontend/application for ehotel can be found here. https://github.com/bamboozooled/ehotel
+
+## Tech Stack
+
+This backend uses technologies such as
+
+* NodeJS Express
+* TypeScript
+* PostgreSQL
+* PG for NodeJS
+* FirebaseAdmin SDK
+* FirebaseAuth and session tokens
+* The concept of Singletons
