@@ -22,3 +22,4 @@ This backend uses technologies such as
 * FirebaseAdmin SDK
 * FirebaseAuth and session tokens
 * The concept of Singletons
+* Promises
