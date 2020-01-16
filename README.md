@@ -11,6 +11,16 @@ can be seen in the services folder. The combination of routes and these services
 
 The frontend/application for ehotel can be found here. https://github.com/bamboozooled/ehotel. The website can be accessed here https://e-hotels.firebaseapp.com
 
+## Test login info for Shopify - 
+
+### Book a hotel with this customer account
+Login for customer account = testshopifybooking@ehotels.com
+Password = bookinghotel
+
+### Create a hotel with this hotel account
+Login for hotel account = testshopifyhotel2@ehotels.com
+Password = testinghotel
+
 ## Tech Stack
 
 This backend uses technologies such as
