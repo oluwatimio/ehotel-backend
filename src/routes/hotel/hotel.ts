@@ -6,7 +6,7 @@ const postgreService = PostgreService.getIntance();
 hotel.post("/hotel/add", (req, res) => {
     const parsed = req.body;
     postgreService.addHotel(parsed.hotelid, parsed.chainid, parsed.name, parsed.phone,
-        parsed.email, parsed.rating, parsed.address).then((response) => {
+        parsed.email, parsed.rating, parsed.address, parsed.imagelink).then((response) => {
         res.json({result: "OK", payload: response});
     });
 });

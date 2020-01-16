@@ -31,9 +31,10 @@ export class TableCreator {
         const queryString = "CREATE TABLE IF NOT EXISTS Hotel(HOTELID VARCHAR(255) PRIMARY KEY NOT NULL, " +
             "CHAINID VARCHAR(255) NOT NULL," +
             "NAME VARCHAR(255) not null, " +
-            "PHONE SERIAL," +
+            "IMAGELINK VARCHAR(255)," +
+            "PHONE VARCHAR(50)," +
             "EMAIL VARCHAR(255)," +
-            "RATING SERIAL," +
+            "RATING REAL," +
             "ADDRESS VARCHAR(255)," +
             "numrooms SERIAL not null," +
             "numbookings SERIAL not null," + // Update every other hotel add stuff

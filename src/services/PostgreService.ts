@@ -53,12 +53,12 @@ export class PostgreService {
     }
 
     public addHotel(hotelId: string, chainId: string, name: string,
-                    phone: number, email: string, rating: number, address: string) {
+                    phone: string, email: string, rating: number, address: string, imageLink: string) {
         return new Promise(resolve => {
             const queryString = "INSERT INTO Hotel (hotelid, chainid," +
-                "name, phone, email, rating, address, numrooms, numbookings)" +
-                "VALUES($1,$2,$3,$4,$5,$6,$7, $8, $9)";
-            this.client.query(queryString, [hotelId, chainId, name, phone, email, rating, address, 0,0], (err, res) => {
+                "name, phone, email, rating, address, numrooms, numbookings, imageLink)" +
+                "VALUES($1,$2,$3,$4,$5,$6,$7, $8, $9, $10)";
+            this.client.query(queryString, [hotelId, chainId, name, phone, email, rating, address, 0,0, imageLink], (err, res) => {
                 // tslint:disable-next-line:no-console
                 console.log(err, res);
                 resolve({hotelid: hotelId, name: name, numrooms: 0, address: address, numbookings: 0})
