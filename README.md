@@ -9,7 +9,17 @@ on the internet.
 The routes for ehotel backend can be seen in routes folder. The services such as the postgreService, TableCreator and TriggerCreator
 can be seen in the services folder. The combination of routes and these services make the ehotel backend.
 
-The frontend/application for ehotel can be found here. https://github.com/bamboozooled/ehotel
+The frontend/application for ehotel can be found here. https://github.com/bamboozooled/ehotel. The website can be accessed here https://e-hotels.firebaseapp.com
+
+## Test login info for Shopify - 
+
+### Book a hotel with this customer account
+Login for customer account = testshopifybooking@ehotels.com
+Password = bookinghotel
+
+### Create a hotel with this hotel account
+Login for hotel account = testshopifyhotel2@ehotels.com
+Password = testinghotel
 
 ## Tech Stack
 
@@ -19,6 +29,8 @@ This backend uses technologies such as
 * TypeScript
 * PostgreSQL
 * PG for NodeJS
+* Google Cloud App Engine for hosting of the NodeJS backend.
 * FirebaseAdmin SDK
 * FirebaseAuth and session tokens
 * The concept of Singletons
+* Promises
