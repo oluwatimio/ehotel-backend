@@ -152,6 +152,7 @@ export class PostgreService {
         const queryString = "SELECT * FROM Customer WHERE email = $1";
 
         return new Promise(resolve => {
+            console.log(email)
             this.isEmployee(email).then(result => {
                 if (result === true){
                     this.getEmployee(email).then((res) => {
